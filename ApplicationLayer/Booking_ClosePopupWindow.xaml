@@ -69,7 +69,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:LogMessage DisplayName="Log Message - Booking_ClosePopupWindow" sap:VirtualizedContainerService.HintSize="545.6,182.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;Start Booking_ClosePopupWindow&quot;]" />
-    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Attach Browser - Edge on Booking website" sap:VirtualizedContainerService.HintSize="545.6,916" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="bf5d0c2f35a7ced1cee0362458451ab8" Selector="&lt;html app='msedge.exe' title='Booking.com*' /&gt;">
+    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser - Edge on Booking website" sap:VirtualizedContainerService.HintSize="545.6,916" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="bf5d0c2f35a7ced1cee0362458451ab8" Selector="&lt;html app='msedge.exe' title='Booking.com*' /&gt;">
       <ui:BrowserScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>

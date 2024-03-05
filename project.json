@@ -94,11 +94,11 @@
         "fileName": "Tests\\Test_FindTheBestPrice.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "e805fb00-0d9a-4299-9fee-316062644b38",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
-        "fileName": "ApplicationLayer\\Test_SendMail.xaml"
+        "fileName": "Tests\\Test_SendMail.xaml"
       }
     ],
     "saveToCloud": false

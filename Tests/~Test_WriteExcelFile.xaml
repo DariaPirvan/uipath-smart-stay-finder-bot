@@ -106,6 +106,7 @@
       <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>GlobalVariablesT1PNoYwrqg</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Test_WriteExcelFile" sap:VirtualizedContainerService.HintSize="591.2,1444.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -167,18 +168,10 @@
       </ui:InvokeWorkflowFile>
       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ApplicationLayer\Booking_FilterDataTable.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="466.4,136.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="ApplicationLayer\Booking_FilterDataTable.xaml">
         <ui:InvokeWorkflowFile.Arguments>
-          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtAccomm">
-            <VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtAccomm" />
-          </InArgument>
-          <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_config">
-            <VisualBasicValue x:TypeArguments="scg:Dictionary(x:String, x:Object)" ExpressionText="config" />
-          </InArgument>
-          <InArgument x:TypeArguments="x:String" x:Key="in_ratingThreshold">
-            <VisualBasicValue x:TypeArguments="x:String" ExpressionText="config(&quot;minimumRatingThreshold&quot;).ToString" />
-          </InArgument>
-          <InOutArgument x:TypeArguments="sd:DataTable" x:Key="io_filteredDt">
-            <VisualBasicReference x:TypeArguments="sd:DataTable" ExpressionText="io_dtFiltered" />
-          </InOutArgument>
+          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtAccomm">[dtAccomm]</InArgument>
+          <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)" x:Key="in_config">[config]</InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="in_ratingThreshold" />
+          <InOutArgument x:TypeArguments="sd:DataTable" x:Key="io_filteredDt">[io_dtFiltered]</InOutArgument>
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
     </Sequence>
