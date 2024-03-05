@@ -1,0 +1,119 @@
+{
+  "name": "TuristBoT",
+  "projectId": "3661272e-3c56-4cf7-a32e-be4719a9bf27",
+  "description": "TuristBoT - help you finding the best accommodation",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.23.2-preview]",
+    "UiPath.Mail.Activities": "[1.22.1]",
+    "UiPath.System.Activities": "[24.2.0-preview]",
+    "UiPath.Testing.Activities": "[24.2.0-preview]",
+    "UiPath.UIAutomation.Activities": "[24.2.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.2.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "86feaf08-926b-42cd-b08e-d160c9acfd8f",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Test_InitAllSettings.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "c9a81762-89bb-4414-8b94-9c1bd5d9545f",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Test_BookingOpen.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "76a2941f-9919-4a98-8027-cba29c77c764",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Test_SearchCorrectDate.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "40bb2dc0-7fed-41eb-a137-080f03832495",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Test_ExtractAccommodations.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b4f833ae-a18f-41e7-975a-2411a2975dfb",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Test_FilterDataTable.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "b22a922f-df05-46fc-b68e-62ffbc7ebc59",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Test_WriteExcelFile.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "02f6943e-72e9-4a9e-8db9-b26d96bb4c11",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Tests\\Test_FindTheBestPrice.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e805fb00-0d9a-4299-9fee-316062644b38",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "ApplicationLayer\\Test_SendMail.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "f8a9984b-3d4d-4ec6-a511-03bd7c72dbeb",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
