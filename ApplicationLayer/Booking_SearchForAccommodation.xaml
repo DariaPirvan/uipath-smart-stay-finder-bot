@@ -172,7 +172,7 @@
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://www.booking.com/index.ro.html?label=gen173nr-1BCAEoggI46AdIM1gEaMABiAEBmAEguAEXyAEM2AEB6AEBiAIBqAIDuALDwZ2vBsACAdICJGI5NDEyNzU0LTRlZTQtNGY2Yi1hOTQyLTZjZDhjNzAwNzE0N9gCBeACAQ&amp;sid=8879ebb5aa61a730e52d22a2cca4a384&amp;keep_landing=1&amp;sb_price_type=total&amp;" CvElementArea="275, 778, 468, 71" CvType="InputBox" DesignTimeRectangle="326, 790, 405, 45" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id=':re:' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id=':re:' tag='INPUT' type='' class='eb46370fe1' placeholder='Unde mergeți?' aaname='' /&gt;" Guid="d7f83c87-db01-4eed-8445-2467c99aff63" InformativeScreenshot="6e2ab40b41fd6270a0905e96e0dff1e3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Booking.com | Site oficial | Cele mai bune hoteluri, zboruri, închirieri auto și cazări' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target DesignTimeRectangle="296, 801, 30, 24" ElementType="Icon" FullSelectorArgument="&lt;webctrl parentid='indexsearch' tag='path' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='indexsearch' tag='path' type='' class='' aaname='' /&gt;" SearchSteps="FuzzySelector" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
